@@ -1,0 +1,79 @@
+/* Sono state utilizzate le (%) come valori in funzione del addattamento a qualsiasi risoluzione */
+*{
+  color: rgb(255, 255, 255);
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0 ;
+}
+
+body {
+  background-image: url(file:background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.contenitore{
+  background-color: rgba(0,0,0, 0.5);
+  margin: 5% auto;
+  width: 60%;
+  height: 140%;
+  border-radius: 1%;
+  padding: 7%
+}
+
+header, nav{
+  text-align: center;
+}
+
+.logo{
+  width: 20%;
+  height: 40%;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  color: lime;
+}
+
+nav > input {
+  color: black;
+  display: inline-block;
+}
+
+.row{
+  background-color: lime;
+  padding: 1%;
+
+}
+
+section > span {
+  font-size: 120%;
+  font-weight: bold;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+section > hr {
+  height: 30px;
+  border-radius: 5%
+}
+
+.barracarica1 {
+  width: 45%;
+  background-color: orange;
+  margin-left: 3px
+}
+
+.barracarica2 {
+  width: 70%;
+  background-color: lime;
+  margin-left: 3px
+}
+
+.barracarica3 {
+  width: 20%;
+  background-color: red;
+  margin-left: 3px
+}
